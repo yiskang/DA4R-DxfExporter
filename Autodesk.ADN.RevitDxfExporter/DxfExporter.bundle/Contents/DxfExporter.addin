@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>DxfExporter</Name>
+		<FullClassName>Autodesk.ADN.RevitDxfExporter.MainApp</FullClassName>
+		<Text>DxfExporter</Text>
+		<Description>Export RVT to DXF</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\DxfExporter.dll</Assembly>
+		<AddInId>41EDAAEF-455F-46E7-A611-B3D0BD895C45</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

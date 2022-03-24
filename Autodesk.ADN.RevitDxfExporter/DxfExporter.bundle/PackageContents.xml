@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="RVT to DXF Addin" Author="eason.kang@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="http://learnforge.autodesk.io" Email="forge.help@autodesk.com"/>
+	<Components Description="Export RVT to DXF">
+		<RuntimeRequirements SeriesMax="R2022" SeriesMin="R2022" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Export RVT to DXF" ModuleName="./Contents/DxfExporter.addin" Version="1.0.0" AppName="DxfExporter"/>
+	</Components>
+</ApplicationPackage>
